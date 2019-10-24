@@ -309,12 +309,7 @@ class Ui {
             downloadButtonStyle: this.theme.getStyle('downloadButton')
         }) +
         mainContainer({
-            locale: this._locale,
-            biImage: this.theme.getStyle('common.bi'),
             commonStyle: this.theme.getStyle('common'),
-            headerStyle: this.theme.getStyle('header'),
-            loadButtonStyle: this.theme.getStyle('loadButton'),
-            downloadButtonStyle: this.theme.getStyle('downloadButton'),
             submenuStyle: this.theme.getStyle('submenu')
         });
 
