@@ -159,7 +159,6 @@ declare namespace tuiImageEditor {
             path: string;
             name: string;
         };
-        loadImageFromFile?: File;
         theme?: IThemeConfig;
         menu?: string[];
         initMenu?: string;
@@ -169,6 +168,7 @@ declare namespace tuiImageEditor {
         };
         menuBarPosition?: string;
         usageStatistics?: boolean;
+        locale: any;
     }
 
     interface ISelectionStyleConfig {
